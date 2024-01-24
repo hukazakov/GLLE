@@ -1,0 +1,72 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="457436498" file="/Users/dmitrykazakov/Dropbox (Harvard University)/authored/Soliton forcing/FCGLE solver/GLLE solver.prj" location="/Users/dmitrykazakov/Dropbox (Harvard University)/authored/Soliton forcing/FCGLE solver" name="GLLE solver" target="target.mlapps" target-name="Package App">
+    <param.appname>GLLE solver</param.appname>
+    <param.authnamewatermark>Dmitry Kazakov</param.authnamewatermark>
+    <param.email>kazakov@seas.harvard.edu</param.email>
+    <param.company>Harvard University</param.company>
+    <param.icon>/Users/dmitrykazakov/Dropbox (Harvard University)/authored/Cluster synchronisation/model/GLLE solver_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>/Users/dmitrykazakov/Dropbox (Harvard University)/authored/Cluster synchronisation/model/GLLE solver_resources/icon_48.png</file>
+      <file>/Users/dmitrykazakov/Dropbox (Harvard University)/authored/Cluster synchronisation/model/GLLE solver_resources/icon_24.png</file>
+      <file>/Users/dmitrykazakov/Dropbox (Harvard University)/authored/Cluster synchronisation/model/GLLE solver_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Applications/MATLAB/Apps/GLLE_solver</param.output>
+    <param.guid>9d138192-7b14-4180-b13e-fb5b4a726636</param.guid>
+    <unset>
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/GLLE_solver.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/FCGLE_simulator.m</file>
+      <file>${PROJECT_ROOT}/FCGLEwF_LLN.m</file>
+      <file>${PROJECT_ROOT}/cbrewer.m</file>
+      <file>${PROJECT_ROOT}/colorbrewer.mat</file>
+      <file>${PROJECT_ROOT}/im_u0_512.csv</file>
+      <file>${PROJECT_ROOT}/interpolate_cbrewer.m</file>
+      <file>${PROJECT_ROOT}/plot_brewer_cmap.m</file>
+      <file>${PROJECT_ROOT}/re_u0_512.csv</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Applications/MATLAB/Apps" name="GLLE_solver" optional="false">/Applications/MATLAB/Apps/GLLE_solver</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2021b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>12.5</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
